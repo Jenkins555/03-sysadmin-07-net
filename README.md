@@ -26,7 +26,7 @@
 1. Проверьте список доступных сетевых интерфейсов на вашем компьютере. Какие команды есть для этого в Linux и в Windows?  
      ```
        Для Linux - ifconfig , ip addr 
-       Для Windows - ifconfig 
+       Для Windows - ipconfig , так же команда "netsh interface ipv4 dump"
 
 
        vagrant@vagrant:~$ ip addr
